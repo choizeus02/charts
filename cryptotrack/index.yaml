@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  consumer:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-10-08T16:01:52.505375+09:00"
+    description: A Helm chart for the crypto consumer application
+    digest: 0a8019aad9b3b06528d75064bd4ffd566d1cb86a0e326f061b5f0c76478869dd
+    name: consumer
+    type: application
+    urls:
+    - https://choizeus.github.io/cryptotrack-helm-charts/consumer-0.1.0.tgz
+    version: 0.1.0
+  producer:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-10-08T16:01:52.505588+09:00"
+    description: A Helm chart for the crypto producer application
+    digest: a157354817bd8e0a848f21a7541f8be3ce1fd9c4c6e5503b9989fa0a1c085600
+    name: producer
+    type: application
+    urls:
+    - https://choizeus.github.io/cryptotrack-helm-charts/producer-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-10-08T16:01:52.504216+09:00"
