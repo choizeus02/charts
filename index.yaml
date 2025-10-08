@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  coin-pipeline:
+  - apiVersion: v2
+    created: "2025-10-08T17:15:08.096922+09:00"
+    dependencies:
+    - name: producer
+      repository: file://../charts/producer
+      version: 0.1.0
+    - name: consumer
+      repository: file://../charts/consumer
+      version: 0.1.0
+    description: A Helm chart for deploying a full coin pipeline
+    digest: ea04cb0dca9fc02a11a1c799304d327fdf4241eebca3fca392d9a51c57f95fd2
+    name: coin-pipeline
+    type: application
+    urls:
+    - https://choizeus02.github.io/charts/coin-pipeline-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-10-08T17:15:08.096028+09:00"
