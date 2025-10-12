@@ -2,7 +2,23 @@ apiVersion: v1
 entries:
   coin-pipeline:
   - apiVersion: v2
-    created: "2025-10-08T21:43:51.346358+09:00"
+    created: "2025-10-12T13:21:19.714724+09:00"
+    dependencies:
+    - name: producer
+      repository: file://../charts/producer
+      version: 0.3.0
+    - name: consumer
+      repository: file://../charts/consumer
+      version: 0.4.0
+    description: A Helm chart for deploying a full coin pipeline
+    digest: 33eb2806d9ef8a9af644e845177be1c2e8c4b175b7d17f3f117c42fb705a1976
+    name: coin-pipeline
+    type: application
+    urls:
+    - https://choizeus02.github.io/charts/coin-pipeline-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    created: "2025-10-12T13:21:19.714482+09:00"
     dependencies:
     - name: producer
       repository: file://../charts/producer
@@ -18,7 +34,7 @@ entries:
     - https://choizeus02.github.io/charts/coin-pipeline-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2025-10-08T21:43:51.346107+09:00"
+    created: "2025-10-12T13:21:19.713629+09:00"
     dependencies:
     - name: producer
       repository: file://../charts/producer
@@ -34,7 +50,7 @@ entries:
     - https://choizeus02.github.io/charts/coin-pipeline-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2025-10-08T21:43:51.345713+09:00"
+    created: "2025-10-12T13:21:19.713293+09:00"
     dependencies:
     - name: producer
       repository: file://../charts/producer
@@ -49,4 +65,4 @@ entries:
     urls:
     - https://choizeus02.github.io/charts/coin-pipeline-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-08T21:43:51.344328+09:00"
+generated: "2025-10-12T13:21:19.712651+09:00"
